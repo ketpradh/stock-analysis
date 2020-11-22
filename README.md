@@ -17,7 +17,7 @@ This will help the user to make profitable investment decisions for his clients.
 ### Analysis of stocks:
 * Overall, the stocks of almost all companies performed really well in 2017 compared to 2018 with only one company, TERP having a negative yearly return in 2017.
 However, in 2018, most companies had negative yearly return, except ENPH And RUN. 
-* Stock Comparison can be found here - [GitHub 1](https://github.com/ketpradh/stock-analysis/blob/main/Stock%20comparsion.PNG)
+* Stock Comparison can be found here - [Chart 1](https://github.com/ketpradh/stock-analysis/blob/main/Stock%20comparsion.PNG)
 * RUN became extremely profitable in 2018(from 5.5% to 84%, ~93% increase), TERP as well – (-7.2% to -5%) and total volume was higher.
 * The daily volumes of stocks traded was higher in 2017 than in 2018 for most companies. 
 * For the period over 2017-2018:
@@ -27,7 +27,7 @@ However, in 2018, most companies had negative yearly return, except ENPH And RUN
 ### Analysis of the script:
 *  The refactored script performs much faster than the original script, cutting the runtime by more than 75%. This is because of the removal of the nested for loops in the refactored script. 
 The nested for loops was running **12 X rowEnd times** vs now it runs only **rowEnd** times, where rowEnd are the number of rows in a given worksheet. 
-*  Script Runtime Comparison - [GitHub 2](https://github.com/ketpradh/stock-analysis/blob/main/Runtime%20comparsion.png)
+*  Script Runtime Comparison - [Chart 2](https://github.com/ketpradh/stock-analysis/blob/main/Runtime%20comparsion.png)
 *  The original script was activating output worksheet for every ticker within the outer loop. The flipping between the worksheets can cause slow runtimes.
 
 ## **Summary**
