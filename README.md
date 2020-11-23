@@ -1,4 +1,4 @@
-# **Stock-analysis for Steve by Ketaki**
+# **Stock-analysis by Ketaki**
 
 ## **Overview of Project**
 
